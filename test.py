@@ -11,7 +11,7 @@ output_pdf_path = r"C:\Users\admin\Downloads\Response"
 os.makedirs(output_pdf_path, exist_ok=True)
 
 # API Key & URL
-API_KEY = "AIzaSyAhb9IDZGMf071wDjPD9PFs_L0xosCU0YU"
+API_KEY = ""
 API_URL = f"https://generativelanguage.googleapis.com/v1/models/gemini-2.0-flash:generateContent?key={API_KEY}"
 
 def extract_text(pdf_path):
